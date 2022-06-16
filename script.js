@@ -6,6 +6,7 @@ const thankYouState = document.querySelector(".thankyou-state");
 
 ratings.forEach((e) => {
   e.addEventListener("click", () => {
+    e.style.backgroundColor = "var(--orange)";
     rating.textContent = `${e.textContent}`;
   });
 });
